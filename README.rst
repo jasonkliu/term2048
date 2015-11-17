@@ -2,8 +2,8 @@
 term2048
 ========
 
-.. image:: https://img.shields.io/travis/bfontaine/term2048.png
-   :target: https://travis-ci.org/bfontaine/term2048
+.. image:: https://travis-ci.org/jasonkliu/term2048.svg?branch=master
+   :target: https://travis-ci.org/jasonkliu/term2048
    :alt: Build status
 
 .. image:: https://img.shields.io/coveralls/bfontaine/term2048/master.png
