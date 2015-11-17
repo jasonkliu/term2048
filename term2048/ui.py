@@ -31,6 +31,8 @@ def parse_cli_args():
                         help='restart the game from where you left')
     parser.add_argument('-v', '--version', action='store_true')
     parser.add_argument('-r', '--rules', action='store_true')
+    parser.add_argument('--ai', dest='ai', type=str,
+                        default=None, help='what type of AI to use')
     return vars(parser.parse_args())
 
 

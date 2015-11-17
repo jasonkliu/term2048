@@ -62,7 +62,7 @@ class Game(object):
 
     def __init__(self, scores_file=SCORES_FILE, colors=COLORS,
                  store_file=STORE_FILE, clear_screen=True,
-                 mode=None, azmode=False, **kws):
+                 mode=None, azmode=False, ai=None, **kws):
         """
         Create a new game.
             scores_file: file to use for the best score (default
@@ -81,6 +81,7 @@ class Game(object):
 
         self.__colors = colors
         self.__azmode = azmode
+        self.__ai     = ai
 
         self.loadBestScore()
         self.adjustColors(mode)
