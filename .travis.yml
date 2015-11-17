@@ -5,9 +5,9 @@ python:
 - '3.2'
 - '3.3'
 - '3.4'
-os:
-- linux
-- osx
+#os:
+#- linux
+#- osx
 install:
 - make BINPREFIX= deps
 - pip install coveralls
