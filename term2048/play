@@ -1,0 +1,3 @@
+#!/usr/bin/env python
+import automate
+automate.play_game(automate.Mode.RANDOM)
